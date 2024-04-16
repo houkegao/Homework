@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
+int compoundPerYear = 365;
+
+
+double ratePerPeriod = annualRate / compoundPerYear;
+double totalPeriods = compoundPerYear * years;
+
+// Total amount of time, money invested for, in years.
+double amount = principal * Math.pow(1 + ratePerPeriod, totalPeriods);
+
+// Total amount of interest earned
+double totalInterest = amount - principal;
+
+System.out.printf("The future value of the investment: %.2f\n", amount);
+System.out.printf("Total interest earned: %.2f\n", totalInterest);
+an option
+for them to select
+double
+
+Yafreisy Guzman  to  Everyone 2:50 PM
+double

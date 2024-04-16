@@ -1,0 +1,25 @@
+package com.jovision.mix.event.api.constant;
+
+//import java.util.Scanner;
+//
+//public class MortgageCalculator {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        //  Enter the principal
+        System.out.print(" Please enter the total loan amount (principal）: ");
+        double principal = scanner.nextDouble();
+
+        //  Enter the APR
+        System.out.print(" Please enter an annual percentage rate (e.g. 7.625 is denoted as0.07625）: ");
+        double interestRate = scanner.nextDouble();
+
+        //  Enter the loan term (years)
+        System.out.print(" Please enter the loan term (years): ");
+        int loanLengthYears = scanner.nextInt();
+
+        //  Convert to months
+        int loanLengthMonths = loanLengthYears * 12;
+
+        //  Calculate the monthly interest rate
+        double monthlyInterestRate = interestRate / 12 / 100;

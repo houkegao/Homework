@@ -1,0 +1,7 @@
+package com.Pluralsight;
+
+public class App{
+      public static void main(String[[] args){
+      String favotiteAninmal="kangaroo";
+
+      System.out.println(favoriteAnimal.chartAr(1));
